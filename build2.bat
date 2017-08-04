@@ -11,4 +11,4 @@ echo Change the path to where the bat file is
 set "curpath=%~dp0" 
 cd /d %curpath% 
 
-C:\Windows\System32\cmd.exe /c "%MSBuildToolsPath%msbuild.exe "SimpleDotNetProject/SimpleDotNetProject.csproj" /nologo /m /t:Build /p:config=Release /p:OverwriteReadOnlyFiles=TRUE
+C:\Windows\System32\cmd.exe /c "%MSBuildToolsPath%msbuild.exe SimpleDotNetProject/SimpleDotNetProject.csproj" /nologo /m /t:Build /p:config=Release /p:OverwriteReadOnlyFiles=TRUE
